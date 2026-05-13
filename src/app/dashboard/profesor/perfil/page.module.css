@@ -1,0 +1,88 @@
+/* FONDO CORPORATIVO */
+.background {
+  min-height: 100vh;
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* TARJETA */
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  border: 1px solid #E6E5E1;
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1C1B14;
+  text-align: center;
+}
+
+/* AVATAR */
+.avatarBox {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #E6E5E1;
+  object-fit: cover;
+}
+
+/* INFO */
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  color: #1C1B14;
+}
+
+/* BOTONES */
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}
+
+.btnSecondary {
+  background: transparent;
+  border: 1px solid #E6E5E1;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1C1B14;
+}
+
+.btnSecondary:hover {
+  background: #FAFAF9;
+}

@@ -1,0 +1,140 @@
+/* CONTENEDOR GENERAL */
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* MÉTRICAS DEL CURSO */
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.metricCard {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #E6E5E1;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.metricValue {
+  font-size: 26px;
+  font-weight: 700;
+  color: #F26522;
+}
+
+.metricLabel {
+  font-size: 14px;
+  color: #525049;
+}
+
+/* HEADER DEL CURSO */
+.header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 24px;
+  border-radius: 14px;
+  border: 1px solid #E6E5E1;
+  backdrop-filter: blur(6px);
+}
+
+.cover {
+  width: 220px;
+  height: 140px;
+  background: #E6E5E1;
+  border-radius: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1C1B14;
+}
+
+.progress {
+  font-size: 14px;
+  color: #525049;
+}
+
+/* BOTÓN PRINCIPAL */
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}
+
+/* MÓDULOS */
+.modules {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1C1B14;
+}
+
+.moduleCard {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #E6E5E1;
+  border-radius: 12px;
+  padding: 20px;
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.moduleCard h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+.moduleCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.moduleCard li {
+  padding: 6px 0;
+  color: #525049;
+  font-size: 14px;
+  border-bottom: 1px solid #E6E5E1;
+}
+
+.moduleCard li:last-child {
+  border-bottom: none;
+}

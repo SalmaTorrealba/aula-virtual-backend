@@ -1,0 +1,131 @@
+:root {
+  /* Primary */
+  --primary-500: #F26522;
+  --primary-600: #D9571D;
+
+  /* Neutral */
+  --neutral-50: #FAFAF9;
+  --neutral-200: #E6E5E1;
+  --neutral-600: #525049;
+  --neutral-800: #1C1B14;
+}
+
+.home-container {
+  background-image: url("/img/Fondo-Login.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  background: white;
+  border-bottom: 1px solid var(--neutral-200);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 32px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+
+  color: var(--neutral-800);
+}
+.login-logo {
+  width: 140px;   /* tamaño ideal */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+
+.login-btn {
+  background: transparent;
+  border: 1px solid var(--neutral-600);
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: var(--neutral-800);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  background: var(--neutral-200);
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-title {
+  font-size: 42px;
+  color: var(--neutral-800);
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: var(--neutral-600);
+  margin-bottom: 32px;
+}
+
+.cta-btn {
+  background: var(--primary-500);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.cta-btn:hover {
+  background: var(--primary-600);
+}
+
+/* BENEFICIOS */
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 40px 48px;
+}
+
+.benefit-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.benefit-card h3 {
+  color: var(--neutral-800);
+  margin-bottom: 8px;
+}
+
+.benefit-card p {
+  color: var(--neutral-600);
+}
+
+/* FOOTER */
+.home-footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--neutral-600);
+  margin-top: auto;
+}

@@ -1,0 +1,146 @@
+.formMinimal {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  border: 1px solid #E6E5E1;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formGroup label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #525049;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 10px 12px;
+  border: 1px solid #E6E5E1;
+  border-radius: 6px;
+  background: #FAFAF9;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  background: white;
+  border-color: #F26522;
+  outline: none;
+}
+
+.formGroup textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}
+/* CONTENEDOR CENTRAL */
+/* CONTENEDOR CENTRAL */
+/* CONTENEDOR CENTRAL */
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* FORMULARIO MINIMALISTA EN 2 COLUMNAS */
+.formMinimal {
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  border: 1px solid #E6E5E1;
+  width: 720px;                 /* MÁS ANCHO PARA 2 COLUMNAS */
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* GRID DE DOS COLUMNAS */
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+/* GRUPOS */
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.formGroup label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #525049;
+}
+
+/* INPUTS MINIMALISTAS */
+.formGroup input,
+.formGroup textarea {
+  padding: 8px 10px;
+  border: 1px solid #E6E5E1;
+  border-radius: 6px;
+  background: #FAFAF9;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  background: white;
+  border-color: #F26522;
+  outline: none;
+}
+
+.formGroup textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* BOTÓN */
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}

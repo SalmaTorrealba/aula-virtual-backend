@@ -1,0 +1,110 @@
+/* FONDO CORPORATIVO */
+.background {
+  min-height: 100vh;
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* TARJETA MINIMALISTA */
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  border: 1px solid #E6E5E1;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1C1B14;
+  text-align: center;
+}
+
+/* FORMULARIO */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field label {
+  font-size: 13px;
+  color: #525049;
+}
+
+/* INPUTS MINIMALISTAS */
+.input,
+.textarea {
+  padding: 10px 12px;
+  border: 1px solid #E6E5E1;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #FFFFFF;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: #F26522;
+}
+
+.textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* BOTONES */
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}
+
+.btnSecondary {
+  background: transparent;
+  border: 1px solid #E6E5E1;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1C1B14;
+}
+
+.btnSecondary:hover {
+  background: #FAFAF9;
+}

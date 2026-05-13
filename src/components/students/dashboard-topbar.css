@@ -1,0 +1,32 @@
+.dashboard-topbar {
+  width: 100%;
+  background: white;
+  padding: 20px 30px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.dashboard-topbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-top-nav {
+  display: flex;
+  gap: 25px;
+}
+
+.dashboard-top-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.dashboard-top-nav a.active {
+  color: #ff7b00;
+}
+
+.dashboard-topbar-right {
+  display: flex;
+  align-items: center;
+}

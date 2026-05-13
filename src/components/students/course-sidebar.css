@@ -1,0 +1,39 @@
+.course-sidebar {
+  width: 260px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.sidebar-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sidebar-module {
+  margin-bottom: 20px;
+}
+
+.sidebar-module h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.sidebar-module ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-module li {
+  font-size: 14px;
+  padding: 6px 0;
+}
+
+.completed {
+  color: #ff7b00;
+  font-weight: 600;
+}

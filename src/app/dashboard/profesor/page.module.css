@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1C1B14;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.metric {
+  background: white;
+  border: 1px solid #E6E5E1;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F26522;
+}
+
+.label {
+  font-size: 14px;
+  color: #525049;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #E6E5E1;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.placeholder {
+  height: 220px;
+  border: 1px dashed #E6E5E1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #525049;
+}
+
+.list p {
+  padding: 8px 0;
+  border-bottom: 1px solid #E6E5E1;
+}

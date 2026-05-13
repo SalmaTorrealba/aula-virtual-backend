@@ -1,0 +1,125 @@
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1C1B14;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+/* TARJETA */
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #E6E5E1;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  backdrop-filter: blur(6px);
+}
+
+.label {
+  font-size: 16px;
+  color: #525049;
+}
+
+.label span {
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+/* BOTONES */
+.btnRow {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.btnCancel {
+  background: #ff4d4d;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnReagendar {
+  background: #1C1B14;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnBack {
+  color: #525049;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* CHAT */
+.chatBox {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #E6E5E1;
+  border-radius: 12px;
+  padding: 16px;
+  height: 250px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.msg {
+  padding: 10px 14px;
+  border-radius: 10px;
+  max-width: 70%;
+  font-size: 14px;
+}
+
+.userMsg {
+  align-self: flex-end;
+  background: #F26522;
+  color: white;
+}
+
+.profMsg {
+  align-self: flex-start;
+  background: #E6E5E1;
+  color: #1C1B14;
+}
+
+/* INPUT CHAT */
+.inputBox {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #E6E5E1;
+  border-radius: 6px;
+}

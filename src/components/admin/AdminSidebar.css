@@ -1,0 +1,82 @@
+/* ============================
+   SIDEBAR ELEGANTE
+============================ */
+
+.admin-sidebar {
+  width: 260px;
+  height: 100vh;
+  background: #0b0b0b; /* negro elegante */
+  padding: 30px 20px;
+  border-right: 1px solid #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* ============================
+   MENÚ
+============================ */
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ITEM DEL MENÚ */
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  color: #cfcfcf;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.25s ease;
+}
+
+/* ICONOS */
+.icon {
+  font-size: 18px;
+  color: #b8b8b8;
+  transition: 0.25s ease;
+}
+
+/* HOVER */
+.menu-item:hover {
+  background: #151515;
+  color: #9b59ff; /* morado elegante */
+}
+
+.menu-item:hover .icon {
+  color: #9b59ff;
+}
+
+/* ACTIVO */
+.menu-item.active {
+  background: #151515;
+  border-left: 4px solid #9b59ff;
+  color: #9b59ff;
+}
+
+.menu-item.active .icon {
+  color: #9b59ff;
+}
+
+/* ============================
+   RESPONSIVE
+============================ */
+
+@media (max-width: 768px) {
+  .admin-sidebar {
+    width: 200px;
+  }
+  .menu-item {
+    font-size: 13px;
+  }
+  .icon {
+    font-size: 16px;
+  }
+}

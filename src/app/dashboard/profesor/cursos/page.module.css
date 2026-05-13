@@ -1,0 +1,93 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.background {
+  min-height: 100vh;
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1C1B14;
+}
+
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #E6E5E1;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+
+.info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.courseTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+.meta {
+  font-size: 14px;
+  color: #525049;
+}
+
+.btnSecondary {
+  margin-top: 10px;
+  background: #FAFAF9;
+  border: 1px solid #E6E5E1;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1C1B14;
+  text-align: center;
+}
+
+.btnSecondary:hover {
+  background: #F3F3F2;
+}

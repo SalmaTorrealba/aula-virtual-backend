@@ -1,0 +1,128 @@
+/* FONDO CORPORATIVO */
+.background {
+  min-height: 100vh;
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* TARJETA */
+.card {
+  width: 100%;
+  max-width: 520px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  border: 1px solid #E6E5E1;
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1C1B14;
+  text-align: center;
+}
+
+/* BOTÓN CREAR */
+.btnCreate {
+  background: #F26522;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btnCreate:hover {
+  background: #D9571D;
+}
+
+/* SECCIONES */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+/* LISTA */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  background: white;
+  border: 1px solid #E6E5E1;
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+.date {
+  font-size: 13px;
+  color: #525049;
+}
+
+/* BOTÓN VER */
+.btnView {
+  background: #F26522;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.btnView:hover {
+  background: #D9571D;
+}
+
+/* BOTÓN VOLVER */
+.btnBack {
+  background: transparent;
+  border: 1px solid #E6E5E1;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1C1B14;
+}
+
+.btnBack:hover {
+  background: #FAFAF9;
+}

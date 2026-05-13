@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+/* --- FIX GLOBAL PARA QUE EL FONDO NO TAPE NADA --- */
+
+body::before,
+.background-map,
+.bg-map,
+.map-bg,
+.map,
+.bg {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: -1 !important;
+  pointer-events: none !important;
+  opacity: 0.15 !important;
+}
+
+/* Aseguramos que todo tu contenido esté por encima */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+@tailwind utilities;
+

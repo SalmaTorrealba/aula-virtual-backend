@@ -1,0 +1,117 @@
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1C1B14;
+}
+
+/* LAYOUT PRINCIPAL */
+.layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+/* LISTA DE CURSOS */
+.cursos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 120px 1fr auto;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #E6E5E1;
+  border-radius: 12px;
+  padding: 16px;
+  backdrop-filter: blur(6px);
+}
+
+.img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nombre {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+.prof {
+  font-size: 14px;
+  color: #525049;
+}
+
+.precio {
+  font-size: 18px;
+  font-weight: 700;
+  color: #F26522;
+}
+
+/* RESUMEN */
+.resumen {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #E6E5E1;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: fit-content;
+  backdrop-filter: blur(6px);
+}
+
+.resumenTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1C1B14;
+}
+
+.row,
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #1C1B14;
+}
+
+.totalRow {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.btnPrimary {
+  margin-top: 20px;
+  background: #F26522;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}

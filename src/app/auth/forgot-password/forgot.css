@@ -1,0 +1,114 @@
+:root {
+  --primary-500: #F26522;
+  --primary-600: #D9571D;
+
+  --neutral-50: #FAFAF9;
+  --neutral-200: #E6E5E1;
+  --neutral-600: #525049;
+  --neutral-800: #1C1B14;
+  --error: #D32F2F;
+  --success: #2E7D32;
+}
+
+/* Fondo */
+.forgot-background {
+  background-image: url("/img/Fondo-Login.jpg");
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tarjeta */
+.forgot-card {
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+/* Logo */
+.forgot-logo {
+  width: 140px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+/* Título */
+.forgot-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--neutral-800);
+  margin-bottom: 24px;
+}
+
+/* Formulario */
+.forgot-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Labels */
+.forgot-label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: var(--neutral-600);
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+.forgot-input {
+  width: 100%;
+  border: 1px solid var(--neutral-200);
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.forgot-input:focus {
+  border-color: var(--primary-500);
+}
+
+/* Error visual */
+.input-error {
+  border-color: var(--error) !important;
+}
+
+.error-text {
+  color: var(--error);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* Botón */
+.forgot-btn {
+  width: 100%;
+  background: var(--primary-500);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.forgot-btn:hover {
+  background: var(--primary-600);
+}
+
+/* Mensaje de éxito */
+.success-text {
+  color: var(--success);
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 1.4;
+}

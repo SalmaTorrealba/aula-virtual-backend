@@ -1,0 +1,102 @@
+/* Título */
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1C1B14;
+  margin-bottom: 26px;
+}
+
+/* Tarjeta principal */
+.card {
+  background: #FFFFFF;
+  padding: 32px;
+  border-radius: 14px;
+  border: 1px solid #E6E5E1;
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Avatar + info */
+.avatarSection {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  background: #E6E5E1;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1C1B14;
+}
+
+.role {
+  font-size: 14px;
+  color: #525049;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formGroup label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #525049;
+}
+
+.formGroup input {
+  padding: 10px 12px;
+  border: 1px solid #E6E5E1;
+  border-radius: 6px;
+  background: #FAFAF9;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.formGroup input:focus {
+  background: #FFFFFF;
+  border-color: #F26522;
+  outline: none;
+}
+
+/* Botón */
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}

@@ -1,0 +1,73 @@
+.page {
+  padding: 30px 40px;
+
+  background-image: url("/img/Fondo-Login.jpg");
+    justify-content: right;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  color:#ff8f2a
+}
+
+.form {
+  background: transparent;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 70%;
+  margin: 0 auto;
+  
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.group input,
+.group select,
+.group textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.group input:focus,
+.group select:focus,
+.group textarea:focus {
+  border-color: #ff7a00;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.btnCrear {
+  background: #ff7a00;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btnCrear:hover {
+  background: #ff8f2a;
+}

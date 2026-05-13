@@ -1,0 +1,89 @@
+.config-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.config-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-align: center;
+ 
+}
+
+.config-subtitle {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.config-card {
+  background: #0000008c;
+  border: 1px solid #000000;
+  padding: 25px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.config-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.campo label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.campo input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 18px;
+  transition: 0.2s ease;
+}
+
+.campo input:focus {
+  border-color: #ff7a00;
+  background: #151515;
+  outline: none;
+}
+
+.btn {
+  background: #ff7a00;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #050505;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background: #e56d00;
+}
+
+.btn-secundario {
+  background: #ff7a00;
+}
+
+.btn-secundario:hover {
+  background: #2a2a2a;
+}
+
+.config-info {
+  color: #000000;
+  margin-bottom: 15px;
+}
+

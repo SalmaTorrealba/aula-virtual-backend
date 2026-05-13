@@ -1,0 +1,171 @@
+/* 
+   CONTENEDOR GENERAL
+ */
+.page {
+  padding: 30px 40px;
+ background-image: url("/img/Fondo-Login.jpg");
+
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.layout {
+  display: flex;
+  gap: 40px;
+}
+
+/* 
+   TABLA DE PROYECTOS
+ */
+.tableWrapper {
+  width: 60%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.table th {
+  background: #f5f5f5;
+  padding: 14px;
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+}
+
+.table td {
+  padding: 14px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  color: #444;
+  cursor: pointer;
+}
+
+.actions svg:hover {
+  color: #ff7a00;
+  transition: 0.2s ease;
+}
+
+/* BADGES */
+.badgePublicado {
+  background: #d6f5d6;
+  color: #1a7f1a;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.badgeBorrador {
+  background: #ffe6cc;
+  color: #cc6600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* BOTÓN NUEVO PROYECTO */
+.btnNuevo {
+  margin-top: 20px;
+  background: #ff7a00;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btnNuevo:hover {
+  background: #ff8f2a;
+}
+
+/* 
+   PANEL DE DETALLES
+ */
+.details {
+  width: 40%;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  min-height: 400px;
+}
+
+.placeholder {
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.detailsTitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.cover img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* RECURSOS */
+.resources {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resourceItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+/* SOLICITUDES */
+.solicitudes {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.solicitud {
+  font-size: 14px;
+  color: #444;
+}
+
+.solicitud span {
+  color: #ff7a00;
+  font-weight: 600;
+}

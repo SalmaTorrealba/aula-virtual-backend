@@ -1,0 +1,46 @@
+/* PANEL SUPERIOR — fondo blanco, altura fina */
+.navbar-panel {
+  width: 100%;
+  background: #ffffff;      /* fondo blanco */
+  border-bottom: 1px solid #ddd; /* esta es la única línea que debe quedar */
+  display: flex;
+  align-items: right /* alineación a la derecha */;
+  justify-content: right; /* alineación a la derecha */
+}
+
+/* MENÚ CENTRADO */
+.navbar-menu {
+  display: flex;
+  gap: 50px;                /* separación exacta */
+  align-items: center;
+}
+
+/* ENLACES — tipografía más pequeña */
+.navbar-link {
+  font-size: 14px;          /* más pequeño */
+  font-weight: 600;
+  color: #444;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* BOTÓN REGISTRARSE — idéntico a la referencia */
+.navbar-register {
+  background: #ffa53e;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.navbar-register:hover {
+  background: #f08f1f;
+}

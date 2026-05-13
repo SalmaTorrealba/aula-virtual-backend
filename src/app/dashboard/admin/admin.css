@@ -1,0 +1,120 @@
+:root {
+  --primary: #F26522;
+  --primary-dark: #D9571D;
+
+  --gray-50: #FAFAF9;
+  --gray-200: #E6E5E1;
+  --gray-600: #525049;
+  --gray-800: #1C1B14;
+}
+
+/* Layout general */
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background-image: url("/img/Fondo-Login.jpg");
+  padding:6px;
+}
+
+/* Sidebar minimalista */
+.sidebar {
+  width: 220px;
+  padding: 30px 20px;
+  background: white;
+  border-right: 1px solid var(--gray-200);
+}
+
+.sidebar-logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sidebar-item {
+  font-size: 15px;
+  color: var(--gray-600);
+  text-decoration: none;
+  padding: 6px 0;
+  transition: 0.2s;
+}
+
+.sidebar-item:hover {
+  color: var(--primary);
+}
+
+/* Contenido */
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+/* Títulos */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--gray-800);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--gray-800);
+}
+
+/* Tarjetas */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stat {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--gray-200);
+}
+
+.stat-label {
+  font-size: 14px;
+  color: var(--gray-600);
+}
+
+.stat-value {
+  display: block;
+  margin-top: 8px;
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+/* Acciones rápidas */
+.actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.action {
+  background: var(--primary);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.action:hover {
+  background: var(--primary-dark);
+}

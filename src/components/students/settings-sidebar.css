@@ -1,0 +1,63 @@
+
+.settings-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  
+}
+
+.settings-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.settings-item {
+  padding: 12px 14px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+.settings-item:hover {
+  background: #e1ba9d;
+  color: #ff7a00;
+}
+
+.settings-item.active {
+  background: #000000;
+  color: #ff7a00;
+}
+
+.settings-item.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  background: #ff7a00;
+  border-radius: 10px;
+}
+.settings-sidebar {
+  width: 220px;
+  background: #0c0c0c;
+  padding: 35px 20px;
+  border-right: 1px solid #1a1a1a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  position: fixed; /* ← CLAVE */
+  top: 0;
+  left: 0;
+  
+}
+

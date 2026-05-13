@@ -1,0 +1,66 @@
+.student-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.student-trigger {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 6px 10px;
+  background: transparent;
+  border-radius: 6px;
+}
+
+.student-trigger:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.student-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+.arrow {
+  font-size: 12px;
+  transition: transform .2s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.student-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 180px;
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  padding: 6px 0;
+  z-index: 50;
+}
+
+.student-dropdown .item {
+  width: 100%;
+  padding: 10px 14px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.student-dropdown .item:hover {
+  background: #f5f5f5;
+}
+
+.student-dropdown .logout {
+  color: #d9534f;
+  font-weight: 700;
+}

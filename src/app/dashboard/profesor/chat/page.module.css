@@ -1,0 +1,129 @@
+/* FONDO CORPORATIVO */
+.background {
+  min-height: 100vh;
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* TARJETA DEL CHAT */
+.chatCard {
+  width: 100%;
+  max-width: 480px;
+  height: 80vh;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  border: 1px solid #E6E5E1;
+  border-radius: 14px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+/* MENSAJES */
+.messagesBox {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-right: 6px;
+}
+
+/* MENSAJE IZQUIERDA (ALUMNO) */
+.messageLeft {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+/* MENSAJE DERECHA (PROFESOR) */
+.messageRight {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  flex-direction: row-reverse;
+}
+
+/* AVATAR */
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #E6E5E1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+/* BURBUJA */
+.bubble {
+  max-width: 70%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  border: 1px solid #E6E5E1;
+  font-size: 14px;
+  color: #1C1B14;
+}
+
+.messageRight .bubble {
+  background: #F26522;
+  color: white;
+  border: none;
+}
+
+/* INPUT */
+.inputBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 6px;
+  border-top: 1px solid #E6E5E1;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #E6E5E1;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #F26522;
+}
+
+/* BOTONES */
+.attachBtn,
+.sendBtn {
+  background: #F26522;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.attachBtn:hover,
+.sendBtn:hover {
+  background: #D9571D;
+}

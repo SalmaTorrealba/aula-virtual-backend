@@ -1,0 +1,55 @@
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1C1B14;
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #E6E5E1;
+  border-radius: 14px;
+  padding: 24px;
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label {
+  font-size: 16px;
+  color: #525049;
+}
+
+.label span {
+  font-weight: 600;
+  color: #1C1B14;
+}
+
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}

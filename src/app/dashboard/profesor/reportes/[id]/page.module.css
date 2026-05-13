@@ -1,0 +1,72 @@
+.background {
+  min-height: 100vh;
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 520px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  border: 1px solid #E6E5E1;
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1C1B14;
+  text-align: center;
+}
+
+.date {
+  font-size: 13px;
+  color: #525049;
+  text-align: center;
+}
+
+.desc {
+  font-size: 14px;
+  color: #1C1B14;
+  text-align: center;
+}
+
+.contentBox {
+  background: white;
+  border: 1px solid #E6E5E1;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.content {
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #525049;
+}
+
+.btnBack {
+  background: transparent;
+  border: 1px solid #E6E5E1;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1C1B14;
+}
+
+.btnBack:hover {
+  background: #FAFAF9;
+}

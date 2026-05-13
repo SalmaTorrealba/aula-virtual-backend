@@ -1,0 +1,94 @@
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1C1B14;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.btnPrimary {
+  background: #F26522;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #D9571D;
+}
+
+.tableWrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #E6E5E1;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table thead {
+  background: #FAFAF9;
+}
+
+.table th {
+  text-align: left;
+  padding: 12px;
+  color: #525049;
+  font-weight: 600;
+  border-bottom: 1px solid #E6E5E1;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #E6E5E1;
+  color: #1C1B14;
+}
+
+.actionsRow {
+  display: flex;
+  gap: 8px;
+}
+
+.btnEdit {
+  background: #F26522;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btnEdit:hover {
+  background: #D9571D;
+}
+
+.btnDelete {
+  background: #d9534f;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btnDelete:hover {
+  background: #c9302c;
+}

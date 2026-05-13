@@ -1,0 +1,30 @@
+/* Layout general */
+.layout {
+  display: flex;
+  height: 100vh;
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+}
+
+/* Sidebar fijo */
+.main {
+  flex: 1;
+  margin-left: 210px; /* ancho del sidebar */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Topbar fijo SOLO en estudiante */
+.main > header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+/* Contenido centrado */
+.content {
+  padding: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}

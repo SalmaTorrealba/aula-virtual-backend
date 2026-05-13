@@ -1,0 +1,127 @@
+:root {
+  --primary-500: #F26522;
+  --primary-600: #D9571D;
+
+  --neutral-50: #FAFAF9;
+  --neutral-200: #E6E5E1;
+  --neutral-600: #525049;
+  --neutral-800: #1C1B14;
+  --error: #D32F2F;
+}
+
+/* Fondo */
+.register-background {
+  background-image: url("/img/Fondo-Login.jpg");
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tarjeta */
+.register-card {
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+/* Logo */
+.register-logo {
+  width: 140px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+/* Título */
+.register-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--neutral-800);
+  margin-bottom: 24px;
+}
+
+/* Formulario */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Labels */
+.register-label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: var(--neutral-600);
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+.register-input {
+  width: 100%;
+  border: 1px solid var(--neutral-200);
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.register-input:focus {
+  border-color: var(--primary-500);
+}
+
+/* Error visual */
+.input-error {
+  border-color: var(--error) !important;
+}
+
+.error-text {
+  color: var(--error);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* Mostrar/ocultar contraseña */
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-pass {
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Términos */
+.terms-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--neutral-600);
+}
+
+/* Botón */
+.register-btn {
+  width: 100%;
+  background: var(--primary-500);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.register-btn:hover {
+  background: var(--primary-600);
+}

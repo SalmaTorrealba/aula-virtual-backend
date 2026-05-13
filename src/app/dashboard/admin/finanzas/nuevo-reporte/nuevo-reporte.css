@@ -1,0 +1,87 @@
+.reporte-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.reporte-page {
+  width: 100%;
+  max-width: 850px;
+  background: rgba(255,255,255,0.85);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.reporte-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.reporte-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* FORMULARIO */
+.reporte-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: 1 / 3;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 13px;
+  background: #fff;
+  outline: none;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* BOTÓN */
+.reporte-btn {
+  grid-column: 1 / 3;
+  background: #f57c00;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: 0.2s ease;
+}
+
+.reporte-btn:hover {
+  background: #d96b00;
+}

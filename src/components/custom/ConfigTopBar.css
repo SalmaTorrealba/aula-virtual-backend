@@ -1,0 +1,43 @@
+.config-topbar {
+  width: 100%;
+  background: #0f0f0f;
+  padding: 18px 40px;
+  border-bottom: 1px solid #1f1f1f;
+  position: relative;
+  z-index: 20;
+}
+
+.config-topbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.config-topbar-nav a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.config-topbar-nav a:hover {
+  color: #ff7a00;
+}
+
+.config-topbar-login {
+  margin-left: auto;
+  background: #ff7a00;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.config-topbar-login:hover {
+  opacity: 0.85;
+}
