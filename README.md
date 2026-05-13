@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Aula Virtual – Frontend
+
+Este repositorio contiene las actividades correspondientes a la sección 3.2 del proyecto.  
+Aquí se encuentran implementadas las siguientes tareas solicitadas:
+
+- **3.2.1 Setup React / Next.js**
+- **3.2.2 Configuración de rutas**
+- **3.2.3 Estado global**
+- **3.2.6 Manejo de errores UI**
+
+Estas actividades están completas y forman parte del desarrollo del frontend.
+
+## Actividades NO incluidas en este repositorio
+Las siguientes tareas no forman parte de este repositorio porque corresponden a otra etapa del proyecto o no han sido desarrolladas aquí:
+
+- **3.2.4 Componentes base**
+- **3.2.5 Servicios de consumo API**
+
+---
